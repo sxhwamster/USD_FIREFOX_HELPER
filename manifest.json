@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "USD_FIREFOX_HELPER",
+    "version": "1.0",
+  
+    "description": "Some qol additions for Cegeka USD",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://sd.cegeka.com/*"],
+        "js": ["background.js"]
+      }
+    ]
+  }
+  
